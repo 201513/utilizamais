@@ -115,15 +115,6 @@ export const Footer: React.FC<FooterProps> = ({
                   Painel de Telemetria ao Vivo
                 </button>
               </li>
-              <li>
-                <button
-                  type="button"
-                  onClick={onOpenBloggerGuide}
-                  className="text-blue-400 hover:text-blue-300 font-semibold transition text-left cursor-pointer flex items-center gap-1.5"
-                >
-                  <span>🌐 Levar para utilizamais.blogspot.com</span>
-                </button>
-              </li>
               <li className="pt-2 text-[11px] text-slate-500">
                 Contato com DPO: <span className="text-slate-400">danyedsom05@gmail.com</span>
               </li>

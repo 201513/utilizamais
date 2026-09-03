@@ -263,18 +263,6 @@ export default function App() {
                 Calculadoras financeiras, geradores de documentos para testes de software, formatadores e analisadores SEO com processamento 100% no seu navegador e velocidade instantânea.
               </p>
 
-              {/* Blogger Direct Integration Action Button */}
-              <div className="flex flex-wrap items-center justify-center gap-3 mt-5">
-                <button
-                  type="button"
-                  onClick={() => setBloggerOpen(true)}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white rounded-full text-xs sm:text-sm font-bold shadow-md hover:shadow-lg transition cursor-pointer"
-                >
-                  <Globe className="w-4 h-4 text-white" />
-                  <span>Levar para Blogger (utilizamais.blogspot.com)</span>
-                </button>
-              </div>
-
               {/* Quick stats badges */}
               <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8 mt-6 text-xs text-slate-500 pt-4 border-t border-slate-100">
                 <span className="flex items-center gap-1.5 font-medium">

@@ -148,17 +148,6 @@ export const Navbar: React.FC<NavbarProps> = ({
               SEO Técnico
             </button>
 
-            {/* Blogger Export / Integration Guide */}
-            <button
-              type="button"
-              onClick={onOpenBloggerGuide}
-              title="Como levar para utilizamais.blogspot.com"
-              className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-700 hover:to-indigo-800 text-white rounded-full text-xs font-semibold shadow-xs transition cursor-pointer"
-            >
-              <Globe className="w-3.5 h-3.5" />
-              Levar para Blogger
-            </button>
-
             {/* AdSense Mode Toggle */}
             <button
               type="button"
@@ -214,14 +203,6 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Mobile Dropdown Menu */}
         {mobileMenuOpen && (
           <div className="lg:hidden border-t border-slate-200 py-3 space-y-2 bg-white">
-            <button
-              type="button"
-              onClick={() => { onOpenBloggerGuide(); setMobileMenuOpen(false); }}
-              className="w-full text-left px-3 py-2 text-sm font-semibold text-blue-700 bg-blue-50/70 hover:bg-blue-100/70 rounded-lg flex items-center justify-between"
-            >
-              <span>🌐 Levar para Blogger (Blogspot)</span>
-              <span className="text-[10px] bg-blue-600 text-white px-2 py-0.5 rounded-full font-bold">utilizamais</span>
-            </button>
             <button
               type="button"
               onClick={() => { onNavigateHome(); setMobileMenuOpen(false); }}
